@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.exercicio_26set;
 
 public class Desenvolvedor extends Funcionario {
 
@@ -24,5 +24,8 @@ public class Desenvolvedor extends Funcionario {
     public void Registrar(int horas) {
 
         this.horasExtras = horas;
+    }
+
+    public void registrarHoraExtra(int i) {
     }
 }

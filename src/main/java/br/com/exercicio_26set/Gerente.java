@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.exercicio_26set;
 
 public class Gerente extends Funcionario{
        private double bonusPerfomance;
@@ -30,5 +30,8 @@ public class Gerente extends Funcionario{
     @Override
     public double calcularSalario() {
         return 0;
+    }
+
+    public void setBonusPerformance(int i) {
     }
 }

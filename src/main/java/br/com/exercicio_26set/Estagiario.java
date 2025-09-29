@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.exercicio_26set;
 
 public class Estagiario extends Funcionario{
 
@@ -8,7 +8,7 @@ public class Estagiario extends Funcionario{
     public Estagiario(String nome,
                       String matricula,
                       Double valorHoraTrabalhada){
-        super(nome, matricula, salarioBase:0.0);
+        super(nome, matricula, 0.0);
         this.valorHoraTrabalhada = valorHoraTrabalhada;
         this.horasTrabalhadas = 0;
     }
